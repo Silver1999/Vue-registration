@@ -22,12 +22,12 @@
         <div class="container">
             <tamplate v-if="user.loggedIn">
                 <router-link to="/dashboard" class="navbar-brand"
-                             style="font-size: 50px;text-align: center;color: skyblue;">Vue Firebase Auth Welcome
+                             style="font-size: 25px;text-align: center;color: skyblue;">Vue Firebase Auth Welcome
                 </router-link>
             </tamplate>
             <template v-else>
                 <router-link to="/login" class="navbar-brand"
-                             style="font-size: 50px;text-align: center;color: skyblue;">Please login or Register
+                             style="font-size: 25px;text-align: center;color: skyblue;">Please login or Register
                 </router-link>
             </template>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
