@@ -5,7 +5,7 @@
 
             <template v-if="user.loggedIn">
                 <a href="/dashboard" class="lol">Home</a>
-                <a class="nav-link" style="cursor: pointer;color: lightskyblue;font-size: 18px;float: right"
+                <a class="nav-link" style="cursor: pointer;color: lightskyblue;font-size: 18px;float: right;display: block"
                    @click.prevent="signOut"> <i class="fa fa-sign-out" aria-hidden="true"></i></a>
             </template>
             <template v-else>
